@@ -1,0 +1,241 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Oswald', sans-serif;
+    list-style: none;
+    text-decoration: none;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+}
+
+img {
+    max-width: 100%;
+}
+
+header {
+    background: #66768a;
+    padding: 0 30px;
+}
+
+nav img {
+    max-width: 50px;
+}
+
+nav {
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul {
+    display: flex;
+    gap: 20px;
+}
+
+nav a {
+    color: white;
+}
+
+nav a:hover {
+    color: lightgray;
+}
+
+main {
+    height: 450px;
+    background: #66768a;
+}
+
+.donate {
+    background: white;
+    color: #66768a;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.donate:hover {
+    background: lightgray;
+    color: black;
+}
+
+main section {
+    color: white;
+    padding-top: 50px;
+    margin: 0 auto;
+    max-width: 1024px;
+}
+
+main h1 {
+    font-size: 3.5rem;
+}
+
+main p {
+    font-size: 1.7rem;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+main section a {
+    color: white;
+    font-size: 1.3rem;
+}
+
+main section a:hover {
+    color: lightgray;
+}
+
+/* why ===================================== */
+
+.why,
+.volunteer {
+    height: 450px;
+    margin: 0 auto;
+    max-width: 720px;
+    display: flex;
+    align-items: center;
+}
+
+.why h2 {
+    font-size: 2rem;
+}
+
+.why p {
+    font-size: 1.2rem;
+}
+
+/* visit ========================================== */
+
+.both {
+    background: #dbdfe2;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.both img {
+    max-height: 220px;
+}
+
+.both div {
+    height: 220px;
+    background: #66768a;
+}
+
+.container {
+    display: flex;
+    max-width: 1024px;
+    justify-content: space-between;
+    gap: 50px;
+}
+
+.both h3 {
+    margin: 20px 0;
+}
+
+.both p {
+    margin-bottom: 20px;
+}
+
+.btn {
+    color: black;
+    border: 1px #979797 solid;
+    padding: 10px 30px;
+}
+
+.btn:hover {
+    background: lightgray;
+}
+
+.volunteer p {
+    margin-bottom: 40px;
+}
+
+h2 {
+    margin-bottom: 10px;
+}
+
+/* footer ============================== */
+
+footer {
+    background: #161f2a;
+    color: white;
+    padding: 0 30px;
+}
+
+footer a {
+    color: white;
+}
+
+footer div {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 30px;
+}
+
+footer img {
+    max-width: 50px;
+}
+
+.footer-paragraph {
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px white solid;
+    padding-top: 10px;
+    margin-top: 10px;
+}
+
+footer i {
+    margin-right: 20px;
+}
+
+footer ul {
+    display: flex;
+    gap: 20px;
+
+}
+
+footer h5 {
+    color: #5d6c7f;
+    margin-top: 10px;
+    text-align: left;
+
+}
+
+address {
+    font-style: normal;
+    text-align: left;
+
+}
+
+address a {
+    font-weight: bold;
+}
+
+address span {
+    font-weight: bold;
+}
+
+footer a:hover {
+    color: lightgray;
+}
+
+@media (max-width: 768px) {
+    main {
+        height: 700px;
+        padding: 0 1rem;
+    }
+
+    .why p {
+        padding: 0 1rem;
+    }
+
+    .both {
+        height: 1030px;
+        padding: 0 1rem;
+    }
+
+    .container {
+        flex-direction: column;
+    }
+}
