@@ -15,12 +15,13 @@ img {
 .container {
   margin: 0 auto;
   max-width: 70rem;
-  padding: 1rem;
+  padding: 3em 1em;
 }
 
 header {
-  min-height: 60vh;
+  /* min-height: 60vh; */
   color: white;
+  line-height: 1.5;
 }
 
 header .container {
@@ -35,7 +36,7 @@ header .container {
 }
 
 .main-section h1 {
-  font-size: 3.5rem;
+  font-size: 3rem;
 }
 
 .main-section p {
@@ -43,36 +44,20 @@ header .container {
   margin: 2rem 0;
 }
 
-nav {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-nav ul {
-  display: flex;
-  gap: 1rem;
-}
-
-nav a {
-  color: white;
-}
-
-nav a:hover {
-  color: lightgray;
-}
-
 /* why ===================================== */
 .container--narrow {
   max-width: 40rem;
 }
 .why {
-  min-height: 40vh;
+  line-height: 2;
 }
 .why,
 .volunteer {
   display: flex;
   align-items: center;
+}
+.why p {
+  padding: 1em 0;
 }
 
 h2 {
@@ -84,25 +69,25 @@ h2 {
 .volunteer {
   font-size: 1.2rem;
   margin: 1rem 0;
-  text-align: justify;
 }
 
 /* visit ========================================== */
 .both {
-  min-height: 100vh;
+  padding: 3em 0;
   display: flex;
   justify-content: center;
   align-items: center;
   color: white;
+  line-height: 2;
+}
+
+.volunteer h2,
+.volunteer p {
+  margin-bottom: 1em;
 }
 
 .volunteer a:hover {
   opacity: 0.5;
-}
-
-.split {
-  display: flex;
-  gap: 2rem;
 }
 
 @media (max-width: 40rem) {
@@ -143,6 +128,9 @@ h2 {
 
 footer {
   border-top: 1px solid black;
+}
+footer .container {
+  padding: 1em 0;
 }
 
 footer a {
