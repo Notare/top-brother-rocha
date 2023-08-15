@@ -4,6 +4,8 @@ This project showcases the website of the Top Brother Rocha MMA Training Center,
 
 **Link to project:** https://topbrotherrocha.netlify.app
 
+<img src="./imgs/topbrother.gif" alt="A gif showing a demo of the project">
+
 ## How It's Made:
 
 **Tech used:** HTML and CSS
